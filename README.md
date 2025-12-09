@@ -6,6 +6,11 @@
 
 ## Overview
 
+</br>
+<img width="1493" height="855" alt="image" src="https://github.com/user-attachments/assets/f02737b2-1927-4000-8bd6-3c5c1f11230f" />
+
+</br>
+
 A comprehensive renewable energy management system that predicts solar and wind capacity factors using Beta regression—specifically designed for modeling bounded continuous outcomes between 0 and 1. The system incorporates weather forecasts, historical generation patterns, and seasonal cycles using Fourier transforms, while implementing quantile regression to provide probabilistic forecasts at different confidence levels (P10, P50, P90).
 
 This project helps grid operators balance supply-demand by predicting when to activate backup generators or store excess energy, ultimately reducing reliance on fossil fuels and improving grid stability.
@@ -38,6 +43,7 @@ energy-grid-forecasting/
 ├── server.js                   # Node.js: Express API server
 ├── fourier_transform.cpp       # C++: FFT seasonal analysis
 ├── quantile_regression.m       # MATLAB: Probabilistic forecasting
+├── energy_grid_control.tsx           # TypeScript Interactive Artifact
 └── README.md                   # Documentation
 ```
 
@@ -314,43 +320,6 @@ Contributions are welcome! Areas for improvement:
 
 MIT License - see LICENSE file for details.
 
-## Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@software{energy_grid_forecasting_2025,
-  title={Energy Grid Load Forecasting with Beta Regression},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/energy-grid-forecasting}
-}
-```
-
-## References
-
-1. Ferrari, S., & Cribari-Neto, F. (2004). Beta regression for modelling rates and proportions. *Journal of Applied Statistics*, 31(7), 799-815.
-
-2. Koenker, R., & Bassett Jr, G. (1978). Regression quantiles. *Econometrica*, 46(1), 33-50.
-
-3. Oppenheim, A. V., & Schafer, R. W. (2009). *Discrete-time signal processing*. Pearson Education.
-
-4. Gneiting, T., & Katzfuss, M. (2014). Probabilistic forecasting. *Annual Review of Statistics and Its Application*, 1, 125-151.
-
-## Acknowledgments
-
-- Beta regression implementation inspired by R's `betareg` package
-- Fourier transform using Cooley-Tukey FFT algorithm
-- Control interface design inspired by industrial SCADA systems
-- Quantile regression based on Koenker's optimization approach
-
-## Contact
-
-For questions, issues, or collaborations:
-- **GitHub Issues**: [Project Issues](https://github.com/yourusername/energy-grid-forecasting/issues)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-
 ---
 
-**Note**: This is a demonstration project. For production deployment, additional features like authentication, database persistence, error handling, monitoring, and security hardening are strongly recommended.
+**⭐ Star this repository if you find it helpful!**
